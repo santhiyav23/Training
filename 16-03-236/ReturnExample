@@ -1,0 +1,11 @@
+class ReturnExample {
+    int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        ReturnExample obj = new ReturnExample();
+        int result = obj.multiply(4, 6);
+        System.out.println("Result = " + result);
+    }
+}
